@@ -1,0 +1,76 @@
+body {
+    background-color: #e5eaf5;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.columns {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.columns > * {
+    padding:1rem;
+}
+
+dl {
+    color: #1400c6;
+    font-style: italic;
+    font-family: "Stencil Std", "Papyrus", fantasy;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+ol{
+    color: #101357;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 25px;
+}
+
+p {
+    color: #101357;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #8458B3;
+    font-family: "Garamond", "Times New Roman", serif;
+    font-size: 18px;
+    display: inline;
+    margin-right: 10px;
+}
+
+h3 {
+    color: #0049B7;
+    font-family: "Marker Felt", "Papyrus", fantasy;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#Introduction {
+    color: #494d5f;
+    font-family: "Copperplate", "Papyrus", fantasy;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title {
+    color: #8458B3;
+    font-family: "Copperplate", "Papyrus", fantasy;
+    font-size: 60px;
+    text-align: center;
+}
